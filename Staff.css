@@ -1,0 +1,66 @@
+.staff-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .staff-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  .form-group label {
+    margin-right: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 8px;
+    font-size: 14px;
+    width: 150px;
+  }
+  
+  .add-staff-btn {
+    padding: 10px 20px;
+    margin-left: 50px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-staff-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .staff-list {
+    margin-top: 20px;
+  }
+  
+  .staff-box {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .staff-box p {
+    margin: 5px 0;
+  }
+  
+  .staff-box strong {
+    font-weight: bold;
+  }
+  

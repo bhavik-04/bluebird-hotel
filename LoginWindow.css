@@ -1,0 +1,78 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.hotel-name {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.login-box {
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent box */
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.link, .google-button, .admin-button {
+  display: block;
+  margin: 0.5rem 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.google-button, .admin-button {
+  background-color: #dc3545;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.google-button:hover, .admin-button:hover {
+  background-color: #b02a37;
+}
+
+.message {
+  color: red;
+  margin-top: 1rem;
+}
